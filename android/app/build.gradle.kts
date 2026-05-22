@@ -43,3 +43,8 @@ kotlin {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    // Japanese OCR (required for TextRecognitionScript.japanese; Latin-only by default).
+    implementation("com.google.mlkit:text-recognition-japanese:16.0.1")
+}

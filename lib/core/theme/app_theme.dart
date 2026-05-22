@@ -15,6 +15,8 @@ abstract final class AppTheme {
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 0,
+        scrolledUnderElevation: 0,
+        surfaceTintColor: Colors.transparent,
         backgroundColor: Color(0xFF121418),
         foregroundColor: Color(0xFFE8EAED),
       ),

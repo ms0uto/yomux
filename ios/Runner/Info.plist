@@ -24,6 +24,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Yomu uses the camera to scan Japanese text from books, signs, menus, and screenshots.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Yomu uses your photo library to import images with Japanese text for reading.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

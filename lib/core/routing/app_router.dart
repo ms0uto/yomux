@@ -24,7 +24,10 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(
         path: AppRoutes.reader,
-        builder: (context, state) => const ReaderScreen(),
+        builder: (context, state) {
+          final text = state.extra as String? ?? '';
+          return ReaderScreen(text: text);
+        },
       ),
       GoRoute(
         path: AppRoutes.flashcards,
