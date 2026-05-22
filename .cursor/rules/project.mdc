@@ -1,0 +1,70 @@
+# Project Rules — Nihongo Reader
+
+You are working on a Flutter mobile app for Japanese reading and vocabulary learning.
+
+## Product Summary
+
+The app lets users scan or import Japanese text, extract it with OCR, read it in an interactive reader, look up words, save vocabulary, and review saved words as flashcards.
+
+The MVP is a local-first mobile demo.
+
+## Stack
+
+Use:
+- Flutter
+- Dart
+- Android and iOS only
+- ML Kit for OCR
+- SQLite for local persistence
+- Local dictionary data
+- Feature-based folder structure
+
+Do not use unless explicitly requested:
+- Firebase
+- Supabase
+- backend services
+- authentication
+- cloud sync
+- payment systems
+- subscriptions
+- LLM APIs
+- server-side infrastructure
+
+## Architecture
+
+Use feature-based folders:
+
+- lib/features/ocr
+- lib/features/reader
+- lib/features/dictionary
+- lib/features/flashcards
+- lib/features/stats
+- lib/core/db
+- lib/core/routing
+- lib/core/theme
+- lib/core/widgets
+
+Prefer simple, readable architecture.
+
+Avoid over-engineering.
+
+## Development Rules
+
+- Make small, incremental changes.
+- Do not implement the whole app in one step.
+- Do not modify android/ or ios/ unless the task specifically requires native configuration.
+- Keep platform-specific changes minimal and documented.
+- Prefer local-first functionality.
+- Keep UI simple and demo-friendly.
+- Do not add unnecessary packages.
+- Do not introduce backend dependencies.
+- Do not add user accounts.
+- Do not add monetization features.
+
+## Quality Gates
+
+After meaningful changes, run:
+
+```bash
+flutter analyze
+flutter test
