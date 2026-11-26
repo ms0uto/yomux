@@ -1,17 +1,9 @@
-# nihongo_reader
+# Yomux Reader
 
-A new Flutter project.
+Yomux Reader is an initial proof of concept for a cross-platform Japanese–English educational mobile application designed to help users read and study Japanese.
 
-## Getting Started
+The app allows users to explore kanji, hiragana, and katakana, translate text using their iPhone or Android device's camera, and save individual words or sentences locally to create flashcards for later review.
 
-This project is a starting point for a Flutter application.
+Saved content can then be accessed through a dedicated study interface, making it easier to revisit and reinforce previously learned vocabulary.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This prototype was developed as a quick demo for a Google Builder event in Tokyo, Japan.
